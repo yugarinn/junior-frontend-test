@@ -1,0 +1,41 @@
+main {
+    max-width: 50rem;
+    padding: 2rem;
+    margin: auto;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+    display: inline;
+    max-width: 100%;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a, a:visited {
+    color: blue;
+}
+
+.framed {
+    border: 1px solid #000000;
+}
+
+
+.mb-20 {
+    margin-bottom: 20px;
+}
