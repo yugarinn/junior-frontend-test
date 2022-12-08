@@ -1,16 +1,6 @@
-main {
-    max-width: 50rem;
-    padding: 2rem;
-    margin: auto;
-    font-family: 'Roboto Mono', sans-serif;
-}
-
+/* RESET */
 section {
     margin-bottom: 50px;
-}
-
-.image-container {
-    text-align: center;
 }
 
 img {
@@ -31,10 +21,25 @@ a, a:visited {
     color: blue;
 }
 
+/* STYLES */
+main {
+    max-width: 50rem;
+    padding: 2rem;
+    margin: auto;
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.image-container {
+    text-align: center;
+}
+
 .framed {
     border: 1px solid #000000;
 }
 
+.test-link {
+    display: block;
+}
 
 .mb-20 {
     margin-bottom: 20px;

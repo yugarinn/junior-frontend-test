@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Junior Frontend Tests - Twitch Explorer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+        <link href="../assets/styles/main.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <main>
+            <a href="../index.html"> << index</a>
+
+            <h1>Junior Frontend Tests - Twitch Explorer</h1>
+
+            <section>
+                <p>Wouldn't it be nice to have a way of quickly checking which of your favourite streamers are online? Well let's build it!</p>
+
+                <p>The objective of this test is to build a webapp that let's you add Twitch users profiles to a home page where it lists wheter or not they are online, and provide a quick link to the stream. Like so:</p>
+
+                <div class="image-container">
+                    <img class="mb-20" src="../assets/images/twitch-explorer-mockup.png" alt="mockup" />
+                    <img class="mb-20" src="../assets/images/twitch-explorer-popup-mockup.png" alt="mockup-with-popup" />
+                </div>
+            </section>
+
+            <section>
+                <h2>Requirements</h2>
+                <ul>
+                    <li>Each streamer element should include: </li>
+                        <ul>
+                            <li>The streamer profile picture.</li>
+                            <li>The streamer name.</li>
+                            <li>The streamer stream title, only if they are currently online.</li>
+                            <li>A green/red indicator according to the online status.</li>
+                            <li>An "X" button to permanently remove the streamer from the list.</li>
+                        </ul>
+                    <li>When clicking a streamer element, it should open the current stream if they are online or the profile if they are offline.</li>
+                    <li>The app must be responsive and usable in mobile too. As the screen shrinks, the list should adapt.</li>
+                    <li>When clicking the "Add" button, a popup should appear to let the user input a channel name to add to the list. If no channel is found, nothing should happen.</li>
+                    <li>The list should be persistent even if the user closes the app.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Notes</h2>
+                <p>You will need to obtain a Twitch API access token <a href="https://dev.twitch.tv/docs/authentication" target="_blank">https://dev.twitch.tv/docs/api/reference</a>.</p>
+                <p>You can check the Twitch API here <a href="https://dev.twitch.tv/docs/api/reference" target="_blank">https://dev.twitch.tv/docs/api/reference</a>.</p>
+                <p>Good luck!</p>
+            </section>
+        </main>
+    </body>
+</html>
